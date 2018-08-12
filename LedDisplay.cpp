@@ -31,7 +31,11 @@
 // Pascal Stang's 5x7 font library:
 #include "font5x7.h"
 // The font library is stored in program memory:
-#include <avr/pgmspace.h>
+#if (defined(__AVR__))
+#include <avr\pgmspace.h>
+#else
+#include <pgmspace.h>
+#endif
 #include <string.h>
 
 /*
