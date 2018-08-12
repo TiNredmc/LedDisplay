@@ -1,4 +1,7 @@
-LedDisplay Library
+
+# added ESP8266 support bu TinLethax
+
+LedDisplay Library 
 
 For details, see http://www.arduino.cc/playground/Main/LedDisplay
 
