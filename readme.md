@@ -1,5 +1,5 @@
 
-# added ESP8266 support bu TinLethax
+# added ESP8266 support by TinLethax
 
 LedDisplay Library 
 
